@@ -9,7 +9,7 @@ import {
     SubmitHandler, 
     useForm 
 } from "react-hook-form";
-import { BsGithub, BsGoogle } from 'react-icons/bs'
+import { BsGithub, BsGoogle, BsFacebook } from 'react-icons/bs'
 import AuthSocialButton from "./AuthSocialButton";
 import { toast } from "react-hot-toast";
 import { signIn, useSession } from "next-auth/react"
@@ -189,6 +189,10 @@ const AuthForm = () => {
                         <AuthSocialButton 
                             icon={BsGoogle}
                             onClick={() => socialAction('google')}
+                        />
+                        <AuthSocialButton 
+                            icon={BsFacebook}
+                            onClick={() => socialAction('facebook')}
                         />
                     </div>     
                 </div>
