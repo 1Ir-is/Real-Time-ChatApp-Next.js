@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real-Time Messenger Clone
 
-## Getting Started
+This is a Messenger clone built with [Next.js](https://nextjs.org/).
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [Cloudinary](https://cloudinary.com/): Cloud-based image and video management platform.
+- [Pusher](https://pusher.com/): Real-time communication API for building web and mobile applications.
+- [MongoDB Atlas](https://mongodb.com/atlas/): Cloud-based database service for MongoDB.
+- [Google Developer Platform](https://console.cloud.google.com/): Platform for developing and managing Google Cloud services.
+
+## Installation
+
+1. Clone the repository: 
+```shell
+git clone https://github.com/1Ir-is/Messenger-Clone-NEXT.JS.git
+```
+2. Install packages: 
+```shell
+npm i
+```
+## Setup .env file
+```js
+DATABASE_URL=
+NEXTAUTH_SECRET=
+
+NEXT_PUBLIC_PUSHER_APP_KEY=
+PUSHER_APP_ID=
+PUSHER_SECRET=
+
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+
+GITHUB_ID=
+GITHUB_SECRET=
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
+## Setup Prisma
+```shell
+npx prisma db push
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Start the development server:
+```shell
+npm run dev
+```
+2. Open your browser and navigate to: 
+```shell
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+This project can be easily deployed to [Vercel](https://vercel.com/).
 
-To learn more about Next.js, take a look at the following resources:
+1. Sign up for a Vercel account.
+2. Install the Vercel CLI: `npm install -g vercel`
+3. Deploy the project: `vercel`
+4. Follow the CLI prompts to configure the deployment settings.
+5. Once deployed, you will receive a deployment URL.
+6. And here is my project when deploy successfully: [Messenger Clone](https://messenger-clone-next-ralhcxhds-1ir-is.vercel.app/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- This project was inspired by [Messenger](https://www.messenger.com/).
+- Feel free to customize the README.md file further based on your project's specific details and requirements. Let me know if there's anything else I can assist you with!
