@@ -1,6 +1,7 @@
 import ActiveStatus from './components/ActiveStatus'
 import AuthContext from './context/AuthContext'
 import ToasterContext from './context/ToasterContent'
+import Head from 'next/head'
 
 import './globals.css'
 
@@ -20,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={inter.className}>
         <AuthContext>
           <ToasterContext />
