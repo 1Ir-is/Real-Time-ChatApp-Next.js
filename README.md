@@ -61,7 +61,7 @@ This project can be easily deployed to [Vercel](https://vercel.com/).
 3. Deploy the project: `vercel`
 4. Follow the CLI prompts to configure the deployment settings.
 5. Once deployed, you will receive a deployment URL.
-6. And here is my project when deploy successfully: [Messenger Clone](https://messenger-clone-next-ralhcxhds-1ir-is.vercel.app/).
+6. And here is my project when deploy successfully: [Messenger Clone](https://messenger-clone-next-4bzvatt3j-1ir-is.vercel.app/).
 
 ## Contributing
 
